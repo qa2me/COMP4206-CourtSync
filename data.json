@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "email": "qais@gmail.com",
+      "firstName": "Qais",
+      "lastName": "Al-Rawahi",
+      "phone": "+968 9X XXX XXX",
+      "bio": "Love playing tennis on weekends",
+      "skillLevel": "Advanced",
+      "playStyle": "Singles",
+      "hoursPerWeek": 5,
+      "receiveNotifications": true,
+      "utr": "4.2",
+      "rank": 12,
+      "matchesPlayed": 48,
+      "matchesWon": 31,
+      "winStreak": 3
+    }
+  ],
+  "courts": [
+    {
+      "name": "Boushar Court",
+      "area": "Bawshar",
+      "phone": "968 2450 1234",
+      "lat": 23.5333,
+      "lng": 58.4000,
+      "desc": "Public tennis court in the Bawshar area with floodlights."
+    },
+    {
+      "name": "Sultan Qaboos University",
+      "area": "Al Khoud",
+      "phone": "968 2414 1000",
+      "lat": 23.5889,
+      "lng": 58.1747,
+      "desc": "University courts open to the public during designated hours."
+    },
+    {
+      "name": "Al-Qurm Court",
+      "area": "Qurum",
+      "phone": "968 2460 1234",
+      "lat": 23.6167,
+      "lng": 58.4833,
+      "desc": "Popular beachside court complex in the Qurum area."
+    },
+    {
+      "name": "Al Mooj Court",
+      "area": "Al Mooj",
+      "phone": "968 2450 5678",
+      "lat": 23.5630,
+      "lng": 58.4250,
+      "desc": "Well-maintained court in the Al Mooj district."
+    },
+    {
+      "name": "Samad Al-Shaan Court",
+      "area": "Samad Al-Shaan",
+      "phone": "968 2414 5678",
+      "lat": 23.3167,
+      "lng": 58.1500,
+      "desc": "Court facility in the Samad Al-Shaan area."
+    }
+  ],
+  "matches": [
+    {
+      "player1Name": "Qais",
+      "player2Name": "Salim",
+      "venue": "Al-Qurm Court",
+      "type": "Friendly match - Single",
+      "dateTime": "24/3/2026 - 9:00 PM",
+      "playersJoined": 2,
+      "playersTotal": 2,
+      "isManager": false,
+      "isPublic": false
+    },
+    {
+      "player1Name": "Majed\nWaled",
+      "player2Name": "Khalid\nEmpty...",
+      "venue": "Sultan Qaboos Sport Complex",
+      "type": "Friendly match - Doubles",
+      "dateTime": "24/3/2026 - 9:00 PM",
+      "playersJoined": 3,
+      "playersTotal": 4,
+      "isManager": false,
+      "isPublic": true
+    },
+    {
+      "player1Name": "Osama\nFiras",
+      "player2Name": "Raed\nHusain",
+      "venue": "Sultan Qaboos Sport Complex",
+      "type": "Friendly match - Doubles",
+      "dateTime": "24/3/2026 - 9:00 PM",
+      "playersJoined": 4,
+      "playersTotal": 4,
+      "isManager": true,
+      "isPublic": false
+    },
+    {
+      "player1Name": "Alex",
+      "player2Name": "Empty...",
+      "venue": "Al-Qurm Court",
+      "type": "Friendly match - Single",
+      "dateTime": "24/3/2026 - 9:00 PM",
+      "playersJoined": 1,
+      "playersTotal": 2,
+      "isManager": false,
+      "isPublic": true
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Muscat Open 2026",
+      "description": "The premier annual tennis tournament in Oman.",
+      "venue": "Muscat Tennis Complex",
+      "location": "Al Khuwair, Muscat",
+      "startDate": "15/6/2026",
+      "endDate": "20/6/2026",
+      "startTime": "9:00 AM",
+      "status": "upcoming",
+      "matchType": "singles",
+      "format": "singleElimination",
+      "isFree": false,
+      "entryFee": 5.0,
+      "prize": "Trophy + 500 OMR for winner",
+      "spotsTotal": 32,
+      "spotsLeft": 3,
+      "imagePath": "assets/images/MuscatTennisComplex.png",
+      "isCreatedByMe": false
+    },
+    {
+      "name": "Weekend Singles Cup",
+      "description": "A friendly weekend singles competition.",
+      "venue": "Samad Al-Shaan Court",
+      "location": "Samad, Muscat",
+      "startDate": "21/6/2026",
+      "endDate": "22/6/2026",
+      "startTime": "8:00 AM",
+      "status": "upcoming",
+      "matchType": "singles",
+      "format": "roundRobin",
+      "isFree": false,
+      "entryFee": 3.0,
+      "prize": "Trophy + 200 OMR",
+      "spotsTotal": 16,
+      "spotsLeft": 1,
+      "imagePath": "assets/images/Samad_alshanCourt.png",
+      "isCreatedByMe": true
+    },
+    {
+      "name": "Weekend Doubles Cup",
+      "description": "Bring your partner and compete!",
+      "venue": "Sultan Qaboos Complex",
+      "location": "Al Khuwair, Muscat",
+      "startDate": "28/6/2026",
+      "endDate": "29/6/2026",
+      "startTime": "10:00 AM",
+      "status": "upcoming",
+      "matchType": "doubles",
+      "format": "doubleElimination",
+      "isFree": true,
+      "prize": "Medals for top 3 teams",
+      "spotsTotal": 16,
+      "spotsLeft": 5,
+      "imagePath": "assets/images/court1.png",
+      "isCreatedByMe": false
+    },
+    {
+      "name": "Al-Qurm Summer Classic",
+      "description": "Mixed singles and doubles event with Swiss format.",
+      "venue": "Al-Qurm Court",
+      "location": "Al-Qurm, Muscat",
+      "startDate": "1/6/2026",
+      "endDate": "5/6/2026",
+      "startTime": "7:30 AM",
+      "status": "ongoing",
+      "matchType": "both",
+      "format": "swiss",
+      "isFree": false,
+      "entryFee": 8.0,
+      "prize": "1000 OMR prize pool",
+      "spotsTotal": 64,
+      "spotsLeft": 0,
+      "imagePath": "assets/images/alqurmCourt.png",
+      "isCreatedByMe": true
+    },
+    {
+      "name": "Spring Invitational",
+      "description": "Concluded successfully with 32 participants.",
+      "venue": "Muscat Tennis Complex",
+      "location": "Al Khuwair, Muscat",
+      "startDate": "10/4/2026",
+      "endDate": "14/4/2026",
+      "startTime": "9:00 AM",
+      "status": "completed",
+      "matchType": "singles",
+      "format": "singleElimination",
+      "isFree": false,
+      "entryFee": 5.0,
+      "prize": "Trophy + 300 OMR",
+      "spotsTotal": 32,
+      "spotsLeft": 0,
+      "imagePath": "assets/images/MuscatTennisComplex.png",
+      "isCreatedByMe": false
+    }
+  ]
+}

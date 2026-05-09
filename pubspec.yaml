@@ -1,0 +1,50 @@
+name: flutter_template
+description: "This is a CourtSync App that is the newst version"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_dart: ^1.6.2
+  file_picker: ^11.0.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/mainLogo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/blackProfileLogo.png
+    - assets/images/MuscatTennisComplex.png
+    - assets/images/Samad_alshanCourt.png
+    - assets/images/alqurmCourt.png
+    - assets/images/court1.png
+    - assets/images/cupLogoYellow.png
+    - assets/images/coinLogo.png
+    - assets/images/googlemapsnottrans-Photoroom.png
+    - assets/images/yellowcupsmallLogo.png
+    - assets/images/graymappointer-Photoroom.png
+    - assets/images/homelogo.png
+    - assets/images/gpsLogo.png
+    - assets/images/mainLogo.png
+    - assets/images/png-clipart-logo-house-home-house-angle-building-thumbnail-Photoroom.png
+    - assets/images/blackCourtLogo-Photoroom.png
