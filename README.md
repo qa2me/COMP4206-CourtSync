@@ -14,7 +14,7 @@ CourtSync addresses the challenges of resource contention and real-time data con
 - **Court Discovery:** Browse nearby sports facilities with live data fetching.
 - **Distributed State Management:** Uses asynchronous streams to ensure the UI stays in sync with the backend database without manual refreshes.
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Tech Stack
 - **Framework:** [Flutter](https://flutter.dev/) (Dart)
