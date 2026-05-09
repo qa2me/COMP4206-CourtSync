@@ -1,4 +1,4 @@
-# CourtSync 🎾
+# CourtSync 
 
 CourtSync is a real-time, distributed sports management mobile application built with **Flutter**. Developed for **COMP 4206 (Distributed Computing)**, the platform focuses on synchronizing tournament data and court availability across multiple users in a distributed environment.
 
